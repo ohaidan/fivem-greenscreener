@@ -1,36 +1,4 @@
-# fivem-greenscreener
-
-A small script that allows you to take screenshots of every gta clothing, prop/object or vehicle against a greenscreen.
-You can use them for example in your inventory, clothing store or vehicle store.
-
-## Using the images
-You are granted the freedom to utilize the images in your open-source projects with proper accreditation.
-For commercial usage, please reach out to me on Discord to discuss the conditions.
-
-## Key Features
-- Capture screenshots of every GTA clothing item, including addon clothing
-- Capture screenshots of all objects and props in GTA, including addon props
-- Capture screenshots of every vehicle in GTA, including addon vehicles
-- Screenshots are labeled comprehensively for seamless integration into your scripts
-- Minimalistic progress UI for user convenience
-- Almost completely invisible ped
-- Customizable camera positions through configuration settings
-- Option to enable cycling through texture variations
-- Automatic removal of the greenscreen backdrop (courtesy of [@hakanesnn](https://github.com/hakanesnn))
-- Utilizes a large greenscreen box (thanks to [@jimgordon20](https://github.com/jimgordon20/jim_g_green_screen))
-
-## Planned Updates
-- Feel free to share any ideas or suggestions for future enhancements!
-
-## Installation
-**Dependencies**
-- [screenshot-basic](https://github.com/citizenfx/screenshot-basic)
-- yarn
-
-### Step 1
-Simply place the resource in your resources folder.
-
-**Do not use a subfolder like `resources/[scripts]` as it will cause the script to malfunction.**
+# fivem-greenscreener (for Time2RP)
 
 ## Usage
 ### Screenshot all clothing
@@ -61,12 +29,3 @@ Example Usage:
 `/screenshotvehicle all 1 1`
 
 `/screenshotvehicle zentorno 1 1`
-
-## Examples
-<img src="https://i.imgur.com/2WJyGgy.png" width="200"> <img src="https://i.imgur.com/aAQwU4d.png" width="200">
-<img src="https://i.imgur.com/EqY5Inu.png" width="200"> <img src="https://i.imgur.com/ctTF9M9.png" width="200">
-<img src="https://i.imgur.com/6qD7hF3.png" width="200"> <img src="https://i.imgur.com/xdMyGyk.png" width="200">
-
-## Support the Project
-If you wish to support this project, consider buying me a coffee on [ko-fi](https://ko-fi.com/bentix). Your support is greatly appreciated! ❤️​
-
