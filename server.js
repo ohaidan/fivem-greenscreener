@@ -20,9 +20,9 @@ try {
 		exports['screenshot-basic'].requestClientScreenshot(
 			source,
 			{
-				fileName: savePath + '/' + filename + '.png',
-				encoding: 'png',
-				quality: 1.0,
+				fileName: savePath + '/' + filename + '.webp',
+				encoding: 'webp',
+				quality: 0.7,
 			},
 			async (err, fileName) => {
 				let image = await imagejs.Image.load(fileName);

@@ -56,7 +56,7 @@ async function takeScreenshotForComponent(pedType, type, component, drawable, te
 
 	SetEntityRotation(ped, camInfo.rotation.x, camInfo.rotation.y, camInfo.rotation.z, 2, false);
 
-	emitNet('takeScreenshot', `${pedType}_${type == 'PROPS' ? 'prop_' : ''}${component}_${drawable}${texture ? `_${texture}`: ''}`, 'clothing');
+	emitNet('takeScreenshot', `${component}_${drawable}`, 'clothing');
 	await Delay(2000);
 	return;
 }
